@@ -1,6 +1,6 @@
 body{
     font-family: 'Prompt', sans-serif;
-    background-image: url("/img/Fondo.jpg");  
+    background-image: url("../img/Fondo.jpg");  
     color: #f5f5f5;
 }
 
