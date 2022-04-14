@@ -1,0 +1,86 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    background-image: url("/img/Fondo.jpg");  
+    color: #f5f5f5;
+}
+
+section{
+    background-image: none;
+}
+
+li{
+    border-radius: 1rem;
+    transition: .3s;
+}
+/*
+li:hover{
+    background-color: #fdd100;
+}*/
+
+.barranav{
+    padding: 2rem;
+}
+
+.barranav li a{
+    transition: .5s;
+    border-radius: 1rem;
+}
+.elementosNav a{
+    padding: 1rem;
+}
+.elementosNav a:hover{
+    color: #252525;
+    background-color: #fdd100;
+}
+
+.bg-color1{
+    background-color: #fdd100;
+}
+
+.bg-color2{
+    background-color: #252525;
+}
+
+.bg-color3{
+    background-color: #333533;
+    color: #f5f5f5;
+}
+
+.textColor{
+    color: #fdd100;
+}
+
+a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.portada{
+    transform: scale(.8);
+}
+
+
+.imgGiratoria{
+    width: 60%;
+
+    animation-name: girar; /*pongo el keyframe que quiero que haga*/
+    animation-iteration-count: infinite; /* para que haga un loop infinito*/
+    animation-duration: 2s; /*por cuanto tiempo quiero que haga el efecto*/
+}
+
+.imgPortfolio img{
+    transition: .5s;
+}
+.imgPortfolio img:hover{
+    transform: scale(.8);
+}
+
+
+@keyframes girar{
+    from{
+        transform: rotate(0)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
